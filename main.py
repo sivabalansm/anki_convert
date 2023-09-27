@@ -6,13 +6,35 @@ with open('test.md', 'r') as f:
 class Stage:
     def __init__(self, text):
         self.text = text
+        common_stop = "--"
+        self.identifiers = {"@D": (common_stop, "@Q"), "@Q": (common_stop, "@A"), "@A": (common_stop, "@Q")]
 
-    def string_insert(self, position, str):
-        self.text
+    def custom_str(self, string, pad="\n"):
+        return f"{pad}{string}{pad}"
 
 
-    def format():
-        pass
+    def format(self):
+        formatted = ""
+        skip = False
+
+        for i in range(len(self.text)):
+
+            # skiping an iteration for certain conditions
+            if skip == True:
+                skip = False
+
+            else:
+                char = self.text[i]
+                two_char = self.text[i:i+2]
+                
+                if two_char in self.identifiers:
+
+
+                    formatted += custom_str(two_char)
+                    skip = True
+                
+
+
 
 class Parser:
     def __init__(self, text):
@@ -24,4 +46,4 @@ class Parser:
 
 
 
-print(text.index("@Q"))
+print(Stage(text).format())
