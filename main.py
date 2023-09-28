@@ -1,9 +1,26 @@
 #! /bin/python3
-import sys
+import argparse
+import genanki
 
-with open('test.md', 'r') as f:
-    text = f.read()
+parser = argparse.ArgumentParser()
+parser.add_argument("-s", "--stage", type=str)
+parser.add_argument("-c", "--commit", type=str)
+args = parser.parse_args()
 
+
+
+# just reading from a file complexified a little :)
+def get_text(file=""):
+    if file != "":
+        with open(file, 'r') as f:
+            text = f.read()
+        return text
+    else:
+        raise Exception("Need a file Name")
+
+
+
+# prepeation of files
 class Stage:
     def __init__(self, text):
         self.text = text
@@ -48,9 +65,7 @@ class Stage:
         return formatted
                 
 
-
-
-class Parser:
+class Commit:
     def __init__(self, text):
         self.text = text
 
