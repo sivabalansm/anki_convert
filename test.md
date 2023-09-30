@@ -1,5 +1,9 @@
 # shoemaking
 @D new deck!!
+very long
+@@ 
+silly stuff
+
 @Q what shoe making 
 
 @A
@@ -29,17 +33,8 @@ clement wrote book: how to live life ethical way in big bad city they are in
 @A
 - talks about why women like shoes 
 - talks about how a good christian should wear shoes that blend in. no gold, no luxury material
-	- women in alexandria are the example to not be as a christian
-why women wear shoes alexandria
-- women who want to show off
-- golden ornaments
-- designs in the sole
-- images of amorous embrace - sex
-	- advertisment maybe
-	- they do what is on the shoes
-prostituition not legal
 
-@Q # communicate things using the ground
+@Q communicate things using the ground?
 @A
 - very popular fish sauce store 
 - penis pointing to brothel
@@ -56,6 +51,7 @@ the image was a model of a shoe for a prostitute
 
 
 @Q # roman names
+
 @A
 romans gave their first son their name
 X F at the end of name = son of X (abbreviated name)
